@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+button  + button {
+  margin-left: 10px;
+}
+
+button:nth-child(2n) {
+  background-color: skyblue;
+  border: 1px solid skyblue;
+}
+
+button:hover {
+  color: lightgray;
+}
+
+button::before {
+  content: "♦";
+}
+
+.box {
+  background-color: pink;
+}
+
+p.box.box-1 {
+  width: 50px;
+  height: 50px;
+}
+
+p.box.box-2 {
+  width: 70px;
+  height:70px;
+}
+
+p.box.box-3 {
+  width: 90px;
+  height: 90px;
+}

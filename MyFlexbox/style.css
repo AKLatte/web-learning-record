@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+header {
+  display: flex;
+}
+
+nav {
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+a {
+  display: block;
+  width: 100px;
+  line-height: 64px;
+  text-align: center;
+}
+
+a:hover {
+  background: lightgray;
+}
