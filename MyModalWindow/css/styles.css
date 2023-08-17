@@ -22,7 +22,7 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  transition: transform 0.4s;
+  transition: transform 1s;
 }
 
 .mask {
@@ -38,7 +38,10 @@ body {
   margin: 0 0 20px;
 }
 
-.hidden {
+.mask.hidden {
   display: none;
+}
+
+.modal.hidden {
   transform: translate(0, -500px)
 }

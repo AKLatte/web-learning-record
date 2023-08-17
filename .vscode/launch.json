@@ -1,0 +1,15 @@
+{
+  // IntelliSense を使用して利用可能な属性を学べます。
+  // 既存の属性の説明をホバーして表示します。
+  // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "localhost に対して Chrome を起動する",
+      "url": "file:///e%3A/Web%E9%96%8B%E7%99%BA%E5%AD%A6%E7%BF%92/code/web-learning-record/web-site2-js/accordion/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
