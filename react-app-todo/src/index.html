@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="input-area">
+    <input placeholder="タスクの入力">
+    <button onClick="add-task">追加</button>
+  </div>
+  <div class="incomplete-area">
+    <p>未完了のタスク</p>
+    <ul>
+      <div class="list-row">
+        <li>a</li>
+        <button onClick="complete-button">完了</button>
+        <button onClick="delete-button">削除</button>
+      </div>
+    </ul>
+  </div>
+  <div class="complete-area">
+    <p>完了したタスク</p>
+    <ul>
+      <div class="list-row">
+        <li>a</li>
+        <button onClick="back-button">戻す</button>
+      </div>
+    </ul>
+  </div>
+</body>
+</html>

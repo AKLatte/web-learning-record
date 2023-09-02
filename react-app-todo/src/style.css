@@ -1,0 +1,39 @@
+.input-area {
+  background: skyblue;
+  width: 600px;
+}
+
+.incomplete-area {
+  background: pink;
+  width: 600px;
+  min-height: 200px;
+}
+
+.complete-area {
+  background: lightgreen;
+  width: 600px;
+  min-height: 200px;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+input {
+  margin: 10px 10px;
+  height: 20px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+li:focus {
+  background: #fff;
+}
+
+p {
+  margin-left: 10px;
+}
